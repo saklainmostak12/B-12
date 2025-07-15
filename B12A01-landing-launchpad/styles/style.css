@@ -1,0 +1,63 @@
+
+.navi{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0 150px;
+
+    
+}
+
+
+.navi {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+nav h3{
+    font-size: 34px;
+    color: #4E47FF;
+}
+.Sign-up{
+    color: #FFFFFF;
+    width: 132px;
+    height: 48px;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+section{
+    text-align: center;
+  margin-top: 158px;
+  margin-left: 267.5px;
+  margin-right: 267.5px;
+  margin-bottom: 152px;
+}
+
+section h3{
+    font-size: 65px;
+    font-weight: bold;
+    
+}
+
+
+.Stay-Focused{
+
+     width: 174px;
+    height: 48px;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 37px;
+}
+header{
+    background-image: url('../Assets/Hero-bg.png');
+    width: 1440px;
+    height: 698px;
+}
