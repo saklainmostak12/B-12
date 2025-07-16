@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 .navi{
     display: flex;
     align-items: center;
@@ -14,8 +16,7 @@
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
 
@@ -55,6 +56,7 @@ section h3{
     border-radius: 10px;
     font-weight: bold;
     margin-top: 37px;
+        color: #FFFFFF;
 }
 header{
     background-image: url('../Assets/Hero-bg.png');
@@ -92,6 +94,7 @@ header{
      background-color: #4E47FF;
     border-radius: 10px;
     font-weight: bold;
+        color: #FFFFFF;
 
 
 }
@@ -103,36 +106,179 @@ header{
 }
 .second{
     width: 1140px;
-    height: 306px;
-    margin: 116px 140px;
+    
+    
     background:#ff694780;
     border-radius: 24px;
+    margin:0px 140px ;
+    padding:50px 80px ;
+   
+   
+   
+
+   
     
 }
 
-.second h4{
+.second h3{
     font-size:38px;
     text-align: center;
-    margin-top: 40px;
-
-}
-.felxkor{
-    display: flex;
-    justify-content:space-between;
-
-}
-.felxkor div{
-    width: 180px;
-    height: 121px;
-}
-.felxkor p{
-    font-size:20px ;
-    text-align: center;
-    margin-top:;
     
+    
+    
+    
+    
+   
 }
-.felxkor h4{
+
+
+.flexkor{
+    display: flex;
+    justify-content:space-around;
+    gap: 158px;
+    
+   
+    
+    
+
+    
+
+}
+.flexkor h4{
     font-size: 80px;
     color: #4E47FF;
+    margin:0px;
+    padding: 0px;
+     
+   
+      
+     
+
+}
+
+.flexkor p{
+    font-size:20px ;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+.third{
+    margin: 137px 150px;
+    height: 342px;
+    width: 1140px;
+
+}
+.third h3{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+.third p{
+   
+}
+.flex-3{
+    display: flex;
+    gap:  20px;
+    
+}
+.card{
+    width: 366px;
+   
+    border-radius: 14px;
+    padding-right: 24px;
+    padding-left: 24px ;
+    border: 1px solid ;
+    padding-top: 25px;
+    padding-bottom:24px; 
+    
+    
+   
+}
+
+
+.star-flex{
+    display: flex;
+}
+
+.card h4{
+    font-size: 24px;
+    font-weight:600 ;
+
+}
+
+.card p{
+    font-size: 16px;
+    font-weight:400 ;
+
+}
+
+
+
+.avater{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 318.67px;
+    height: 46px;
+}
+.avater img{
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+}
+.avater h5{
+    font-size: 16px;
+    font-weight:600;
+    margin:0;
+    
+    
+
+}
+.avater h6{
+    font-size: 16px;
+    font-weight:400 ;
+    margin:0;
+   
+
+  
+}
+.four{
+   width: 1140px;
+    height: 700px;
+    padding: 71px 150px;
+    border-radius: 14px;
+    text-align: center;
+    
+}
+.four h2{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.four p{
+      font-size: 16px;
+      font-weight: 400;
+      
+
+}
+.four button{
+     width: 195px;
+    height: 48px;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    font-weight: 600;
+  
+    color: #FFFFFF;
+    padding: 12px 36px;
+   
+   
+
+}
+.four img{
+    border-radius: 48px;
+    text-align: center;
 
 }
